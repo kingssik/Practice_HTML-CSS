@@ -1,0 +1,25 @@
+a {
+    color:inherit;
+    text-decoration: none;
+  }
+  
+  nav {
+    text-align:center;
+  }
+  nav > section {
+    background-color: #afafaf;
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  nav > section > div {
+    display: inline-block;
+  }
+  nav > section > div > a {
+    padding: 10px;
+    display: block;
+  }
+  nav > section > div > a:hover {
+    background-color: black;
+    color:white;
+  }

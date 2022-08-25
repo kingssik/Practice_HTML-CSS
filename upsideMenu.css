@@ -1,0 +1,30 @@
+/* 노말라이즈 */
+a {
+    color:inherit;
+    text-decoration: none;
+  }
+  /* 커스텀 */
+  section {
+    text-align:center;
+  }
+  
+  section > nav {
+    display: inline-block;
+    background-color: #afafaf;
+    padding: 0 20px;
+    border-radius: 15px;
+  }
+  
+  section > nav > div {
+    display: inline-block;
+  }
+  
+  section > nav > div > a {
+    padding: 20px;
+    display: block;
+  }
+  
+  section > nav > div > a:hover {
+    background-color: black;
+   color:white;
+  }

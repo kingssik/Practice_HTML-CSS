@@ -1,5 +1,17 @@
-.menu-box-1 > ul > li {
+/* 노말라이즈 */
+ul, li {
+    margin: 0;
+    padding: 0;
     list-style: none;
+  }
+  
+  .menu-box-1 {
+    text-align:center;
+  }
+  
+  .menu-box-1 > ul {
+    background-color: yellowgreen;
+    display: inline-block;
   }
   
   .menu-box-1 > ul > li {

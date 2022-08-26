@@ -1,0 +1,27 @@
+a {
+    color:inherit;
+    text-decoration: none;
+  }
+  
+  section {
+    text-align:center;
+  }
+  section > nav {
+    background-color: skyblue;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius:10px;
+  }
+  section > nav > div {
+    display: inline-block;
+  }
+  section > nav > div > a {
+    display: block;
+    padding: 20px;
+    font-weight:bold;
+  }
+  section > nav > div:hover > a {
+    background-color: black;
+    color: magenta;
+    font-weight:bold;
+  }

@@ -1,0 +1,7 @@
+.menu-box-1 > ul > li {
+    list-style: none;
+  }
+  
+  .menu-box-1 > ul > li {
+    display: inline-block;
+  }

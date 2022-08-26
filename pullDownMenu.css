@@ -23,6 +23,7 @@ a {
   
   .menu-box-1 > ul > li {
     display: inline-block;
+    width: 200px;
   }
   
   .menu-box-1 > ul > li > a {

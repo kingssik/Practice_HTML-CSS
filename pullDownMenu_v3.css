@@ -33,15 +33,18 @@ a {
   }
   
   .menu-box-1 > ul > li {
-    position: relative;
     display: inline-block;
   }
   
+  .menu-box-1 ul > li {
+    position: relative;
+  }
   
   .menu-box-1 ul > li > a {
-    color:grey;
+    color:red;
     padding: 20px;
     display: block;
+    white-space:nowrap;
   }
   
   .menu-box-1 ul > li:hover> a {
@@ -49,6 +52,16 @@ a {
     background-color: orange;
   }
   
-  .menu-box-1 > ul > li:hover> ul {
+  .menu-box-1 ul > li:hover> ul {
     display: block;
+  }
+  
+  .menu-box-1 > ul ul ul {
+    top: 0;
+    left: 100%;
+  }
+  
+  .menu-box-1 > ul > li:last-child > ul ul {
+    left:auto;
+    right:100%; 
   }

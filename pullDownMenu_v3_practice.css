@@ -29,8 +29,11 @@ body, ul, li {
     display: inline-block;
 }
 
-.menu-box-1 > ul > li {
+.menu-box-1 ul > li {
     position: relative;
+}
+
+.menu-box-1 > ul > li {
     display: inline-block;
 }
 
@@ -45,6 +48,17 @@ body, ul, li {
     background-color: grey;
 }
 
-.menu-box-1 > ul > li:hover > ul {
+.menu-box-1 ul > li:hover > ul {
     display: block;
+}
+
+.menu-box-1 ul ul ul {
+    top: 0;
+    left: 100%;
+    white-space: nowrap;
+}
+
+.menu-box-1 > ul > li:last-child > ul ul {
+    left: auto;
+    right: 100%;
 }

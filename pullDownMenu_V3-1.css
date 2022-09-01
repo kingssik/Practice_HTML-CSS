@@ -13,10 +13,17 @@ body, ul, li {
 /* customizing */
 .menu-box-1 > ul ul {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 
 .menu-box-1 {
     text-align: center;
+}
+
+.menu-box-1 ul {
+    background-color: #dfdfdf;
 }
 
 .menu-box-1 > ul {
@@ -28,15 +35,23 @@ body, ul, li {
 
 .menu-box-1 > ul > li {
     display: inline-block;
+    position: relative;
 }
 
 .menu-box-1 > ul > li > a {
-    padding: 20px;
     color: white;
+}
+
+.menu-box-1 ul > li > a {
+    padding: 20px;
     display: block;
 }
 
-.menu-box-1 > ul > li:hover > a {
+.menu-box-1 ul > li:hover > a {
     color: black;
     background-color: #dfdfdf;
+}
+
+.menu-box-1 > ul > li:hover > ul {
+    display: block;
 }

@@ -338,8 +338,19 @@ html {
   .top-bar {
     background-color: black;
     color:white;
+    height: 200px;
   }
   
-  .top-bar > .menu-box-1 > ul {
-    
+  .top-bar > .logo {
+    font-size: 4rem;
+  }
+  
+  .top-bar > .menu-box-1 > ul > li > a {
+    font-weight:bold;
+    padding: 0 30px;
+  }
+  
+  .top-bar > .menu-box-1 > ul > li:hover > a {
+    background-color: white;
+    color:black;
   }

@@ -351,6 +351,7 @@ label[for] {
   border-bottom : 1px solid #e9e9e9;
 }
 
+
 .top-bar > .con > .menu-box-1 > ul > li > a {
   font-weight: bold;
   font-size: 17px;
@@ -373,4 +374,25 @@ label[for] {
 
 .top-bar > .con > .menu-box-1 > ul > li:hover > a::after {
   width: 100%;
+}
+
+.top-bar > .con > .menu-box-1 > ul > li > ul {
+  display: none;
+  position: absolute;
+}
+
+.top-bar > .con > .menu-box-1 > ul > li:hover > ul {
+  display: block;
+}
+
+.top-bar > .con > .menu-box-1 > ul > li > ul > li > a {
+  color:#666666;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 10px;
+  display: block;
+}
+
+.top-bar > .con > .menu-box-1 > ul > li > ul > li:hover> a {
+  color:#1e1e1e;
 }
